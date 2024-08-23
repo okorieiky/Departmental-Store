@@ -1,0 +1,254 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html  {
+    font-size: 62.5%;
+}
+
+body   {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background: lightgray;
+}
+
+a    {
+    text-decoration: none;
+}
+
+.header-container  {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: green;
+}
+
+.name    {
+    max-width: 50rem;
+    margin: 0;
+    background: white;
+    padding: 0.6rem;
+}
+
+.header-container h1 {
+    color: green;
+    text-shadow: 0.2rem 0.2rem 0.2rem green;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.header-container p  {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+}
+
+.nal      {
+    max-width: 70rem;
+}
+
+.nal nav ul   {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nal ul      {
+    list-style-type: none;
+
+}
+
+.nal li a    {
+    padding: 3.5rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.nal li a:hover {
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+
+}
+
+.form    {
+    margin: 2rem;
+}
+
+#store1  {
+    font-size: 1.8rem;
+    color: white;
+}
+
+#store   {
+    font-size: 1.6rem;
+}
+
+#btn  {
+    background: white;
+    color: black;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+}
+
+.hero    {
+    height: 60vh;
+    background-image: url(/234img/234\ store\ main.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.hero h2  {
+    color: white;
+    font-size: 2.3rem;
+
+}
+
+.hero p   {
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.hero button {
+    padding: 0.8rem 1.6rem;
+    
+}
+
+#btn1     {
+    color: black;
+    font-weight: 600;
+
+}
+
+.shop    {
+    font-size: 3rem;
+    color: green;
+    margin: 0.5rem;
+}
+
+hr      {
+    border:2px solid green;
+}
+img     {
+    height:25rem;
+}
+.contents     {
+    min-height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+    font-size: 1.8rem;
+}
+
+.basis     {
+    min-height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+    font-size: 1.8rem;
+}
+
+.footer  {
+    display: flex;
+    padding: 2rem;
+    margin: 0;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: black;
+    color: white;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3      {
+    font-size: 2.4rem;
+    padding-bottom: 0.9rem;
+    color: green;
+}
+
+.footer ul  {
+    list-style-type: none;
+}
+.footer li #can   {
+    color: white;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.footer li #can:hover {
+    color: red;
+
+}
+
+.contact    {
+    margin: 0;
+    padding: 0;
+    font-size:2rem ;
+    max-width: 40rem;
+}
+
+.name    {
+    max-width: 50rem;
+    margin-bottom: 0.5rem;
+    background: white;
+    padding: 0.6rem;
+
+}
+
+.name h1 {
+    color: green;
+    text-shadow: 0.2rem 0.2rem 0.2rem green;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.name p  {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+}
+
+div h4   {
+    font-size: 1.6rem;
+
+}
+
+div p    {
+    font-size: 1.4rem;
+}
+
+
+
+#wan  {
+    color:white;
+}
+.last   {
+    min-height: 5vh;
+    padding-top:1.5rem ;
+    background: rgb(179, 183, 187);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+
+}
+
+
+
